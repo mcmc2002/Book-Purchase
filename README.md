@@ -11,13 +11,8 @@ To simplify this project, no database was used here. Instead `app.py` includes a
 
 To get started, clone the repository and run pip3 to install dependencies:
 
-assignment is written in Python with Flask framework.
-
-Unzip the Book purchase folder. Open `app.py` using Python application.
-
-In the terminal, key in below command.
-
 ```
+git clone https://github.com/mcmc2002/Book-Purchase && cd sa-takehome-project-python
 pip3 install -r requirements.txt
 ```
 
