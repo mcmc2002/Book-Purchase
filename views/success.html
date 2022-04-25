@@ -1,0 +1,24 @@
+{% extends 'layouts/main.html' %}
+
+{% block content %}
+<main>
+  <div class="mt-40 text-center text-success">
+    <h1>
+      <i class="far fa-check-circle"></i>
+      SUCCESS!
+    </h1>
+  </div>
+  <div class="mt-40 text-center jumbotron">
+        <p class="lead">Thanks for your order, <b>{{ c_name }}</b>!</p>
+          <div class="mt-20 border-placeholder">
+            <b>Transaction ID:</b>  {{ p_intent }} <br>
+            <b>Title:</b>  {{ p_title }} <br>
+            <b>Total Amount:</b>  $ {{ p_amt }}.00 <br><br>
+          </div>
+          <div class="text-center">
+          Kindly wait for your order updates in your email <b>{{ c_email }}</b>.
+          </div>
+    </div>
+  </div>
+</main>
+{% endblock %}
